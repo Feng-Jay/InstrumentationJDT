@@ -30,17 +30,29 @@ public class Instrument {
         ASTParser parser = ASTParser.newParser(AST.JLS8);
         int counter = 0;
         for (String file: javaFiles) {
-            counter++;
-            if (counter > 3){
-                break;
-            }
+//            counter++;
+//            if (counter > 3){
+//                break;
+//            }
             logger.info("Instrumenting JavaFile: " + file +" ...");
             parser.setSource(JavaFile.readFileToString(file).toCharArray());
             parser.setKind(ASTParser.K_COMPILATION_UNIT);
 
             CompilationUnit cu = (CompilationUnit) parser.createAST(null);
+            AST ast = cu.getAST();
             cu.recordModifications();
-            InstVisitor visitor = new InstVisitor();
+
+            ImportDeclaration importDeclaration = ast.newImportDeclaration();
+            importDeclaration.setName(ast.newName(new String[] { "java", "io", "BufferedWriter" }));  // for example: java.util.List
+            importDeclaration.setOnDemand(false);  // for a single type import
+            cu.imports().add(importDeclaration);
+
+            ImportDeclaration importDeclaration1 = ast.newImportDeclaration();
+            importDeclaration1.setName(ast.newName(new String[] { "java", "io", "FileWriter" }));
+            importDeclaration1.setOnDemand(false);
+            cu.imports().add(importDeclaration1);
+
+            InstVisitor visitor = new InstVisitor(_subject);
             cu.accept(visitor);
             Document document = new Document(JavaFile.readFileToString(file));
             TextEdit edits = cu.rewrite(document, null);
@@ -52,9 +64,8 @@ public class Instrument {
                 System.exit(-1);
             }
             logger.info("Instumenting Done.");
-
         }
-
+        _subject.restore();
     }
 
     public static void main(String[] args){

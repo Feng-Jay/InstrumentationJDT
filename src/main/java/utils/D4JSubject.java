@@ -28,7 +28,7 @@ public class D4JSubject {
         _testBin = testBin;
         String[] tmpTestMethods = testMethods.split("#");
         _testMethods = new ArrayList<>(List.of(tmpTestMethods));
-        _resultPath = Constant.RESULT_FILE_PATH + "/" + _proj + "/" + _idNum + ".txt";
+        _resultPath = Constant.RESULT_FILE_PATH + "/" + _proj + "_" + _idNum + ".txt";
     }
 
     public void backup(){

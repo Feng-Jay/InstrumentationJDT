@@ -50,7 +50,9 @@ public class Main {
         List<D4JSubject> subjects = JavaFile.readPatchInfo();
 
         for (D4JSubject subject: subjects){
-
+            logger.info("Current bug is: " + subject._proj + "_" + subject._idNum);
+            Instrument instrument = new Instrument(subject);
+            instrument.instrumentation();
         }
     }
 }

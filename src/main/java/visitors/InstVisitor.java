@@ -2,6 +2,7 @@ package visitors;
 
 import org.eclipse.jdt.core.dom.*;
 import utils.Constant;
+import utils.D4JSubject;
 
 import java.util.*;
 
@@ -9,14 +10,16 @@ import static utils.LLogger.logger;
 
 public class InstVisitor extends ASTVisitor {
      private int _localVarCounter = 0;
+     private D4JSubject _subject = null;
      private Stack<Integer> _counterStack;
      private String _packageName;
      private String _retType;
      private List<String> _baseTypes = new ArrayList<>(List.of("byte", "Byte", "short", "Short", "char", "Character",
              "int", "Integer", "long", "Long", "float", "Float", "double", "Double", "boolean", "Boolean"));
 
-     public InstVisitor(){
-         _counterStack = new Stack<>();
+     public InstVisitor(D4JSubject subject){
+        _subject = subject;
+        _counterStack = new Stack<>();
      }
 
      private boolean isBaseType(String type){
@@ -29,6 +32,10 @@ public class InstVisitor extends ASTVisitor {
                  return ast.newPrimitiveType(PrimitiveType.INT);
              case "Integer":
                  return ast.newSimpleType(ast.newSimpleName("Integer"));
+             case "char":
+                 return ast.newPrimitiveType(PrimitiveType.CHAR);
+             case "Character":
+                 return ast.newSimpleType(ast.newSimpleName("Character"));
              case "long":
                  return ast.newPrimitiveType(PrimitiveType.LONG);
              case "Long":
@@ -50,7 +57,6 @@ public class InstVisitor extends ASTVisitor {
          }
      }
 
-
      public boolean hasBlock(ASTNode node){
           return  node instanceof TypeDeclaration  || node instanceof EnumDeclaration || node instanceof MethodDeclaration || node instanceof Block || node instanceof CatchClause
                   || node instanceof DoStatement || node instanceof EnhancedForStatement || node instanceof ForStatement
@@ -71,6 +77,10 @@ public class InstVisitor extends ASTVisitor {
 
      @Override
      public boolean visit(MethodDeclaration node){
+         if(node.getReturnType2() == null){
+             _retType = null;
+             return true;
+         }
          _retType = node.getReturnType2().toString();
          return true;
      }
@@ -107,7 +117,7 @@ public class InstVisitor extends ASTVisitor {
                  for(Statement newStmt: newStmts){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  parentDo.setBody(newBlock);
              }
              return true;
@@ -124,7 +134,7 @@ public class InstVisitor extends ASTVisitor {
                  for(Statement newStmt: newStmts){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  parentEFOR.setBody(newBlock);
              }
              return true;
@@ -141,11 +151,13 @@ public class InstVisitor extends ASTVisitor {
                  for(Statement newStmt: newStmts){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  parentFor.setBody(newBlock);
              }
              return true;
          }else if(parentNode instanceof IfStatement){
+             if(oriNode instanceof ReturnStatement) return false;
+
              IfStatement parentIf = (IfStatement) parentNode;
              Statement body = parentIf.getThenStatement();
              if (body instanceof Block){
@@ -158,7 +170,9 @@ public class InstVisitor extends ASTVisitor {
                  for(Statement newStmt: newStmts){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 logger.debug("newBlock:" + newBlock);
+                 logger.debug("body:" + body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  parentIf.setThenStatement(newBlock);
              }
              return true;
@@ -175,7 +189,7 @@ public class InstVisitor extends ASTVisitor {
                  for(Statement newStmt: newStmts){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  parentWhile.setBody(newBlock);
              }
              return true;
@@ -215,17 +229,25 @@ public class InstVisitor extends ASTVisitor {
              Statement body = curIf.getThenStatement();
              if (body instanceof Block){
                  Block bodyBlock = (Block) body;
-                 Object target = bodyBlock.statements().get(0);
-                 Statement targetStmt = (Statement) target;
-                 for(Statement newStmt: toBeInserted){
-                     bodyBlock.statements().add(bodyBlock.statements().indexOf(targetStmt), newStmt);
+                 if(bodyBlock.statements().size() == 0){
+                     for(Statement newStmt: toBeInserted) {
+                         bodyBlock.statements().add(newStmt);
+                     }
+                 }else{
+                     Object target = bodyBlock.statements().get(0);
+                     logger.info("target:" + target);
+                     Statement targetStmt = (Statement) target;
+                     for(Statement newStmt: toBeInserted){
+                         bodyBlock.statements().add(bodyBlock.statements().indexOf(targetStmt), newStmt);
+                     }
                  }
+
              }else{
                  Block newBlock = ast.newBlock();
                  for(Statement newStmt: toBeInserted){
                      newBlock.statements().add(newStmt);
                  }
-                 newBlock.statements().add(body);
+                 newBlock.statements().add((Statement)ASTNode.copySubtree(ast, body));
                  curIf.setThenStatement(newBlock);
              }
          }else{
@@ -245,7 +267,7 @@ public class InstVisitor extends ASTVisitor {
          AST ast = node.getAST();
          List<Statement> toBeInserted = new ArrayList<>();
 
-         if(node.getExpression() == null){
+         if(node.getExpression() == null || _retType == null){
              return true;
          }
 
@@ -272,7 +294,63 @@ public class InstVisitor extends ASTVisitor {
              methodInvocation.arguments().add(ASTNode.copySubtree(ast, ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter)));
              ExpressionStatement printStatement = ast.newExpressionStatement(methodInvocation);
 
-             toBeInserted.add(varDeclStmt); toBeInserted.add(printStatement);
+             VariableDeclarationFragment fileWriterVDF = ast.newVariableDeclarationFragment();
+             fileWriterVDF.setName(ast.newSimpleName("writer"));
+             ClassInstanceCreation fileWriterCreation = ast.newClassInstanceCreation();
+             fileWriterCreation.setType(ast.newSimpleType(ast.newSimpleName("BufferedWriter")));
+             ClassInstanceCreation newFileWriter = ast.newClassInstanceCreation();
+             newFileWriter.setType(ast.newSimpleType(ast.newSimpleName("FileWriter")));
+             StringLiteral arg1 = ast.newStringLiteral();
+             arg1.setLiteralValue(_subject._resultPath);
+             newFileWriter.arguments().add(arg1);
+             BooleanLiteral arg2 = ast.newBooleanLiteral(true);
+             newFileWriter.arguments().add(arg2);
+             fileWriterCreation.arguments().add(newFileWriter);
+             fileWriterVDF.setInitializer(fileWriterCreation);
+
+             VariableDeclarationStatement fileWriterDecl = ast.newVariableDeclarationStatement(fileWriterVDF);
+             fileWriterDecl.setType(ast.newSimpleType(ast.newSimpleName("BufferedWriter")));
+
+             // Create the write method invocation
+             MethodInvocation writeInvocation = ast.newMethodInvocation();
+             writeInvocation.setExpression(ast.newSimpleName("writer"));
+             writeInvocation.setName(ast.newSimpleName("write"));
+             InfixExpression infix = ast.newInfixExpression();
+             StringLiteral infixArg1 = ast.newStringLiteral();
+             infixArg1.setLiteralValue("The value is: ");
+             infix.setLeftOperand(infixArg1);
+             infix.setOperator(InfixExpression.Operator.PLUS);
+             infix.setRightOperand(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
+             writeInvocation.arguments().add(infix);
+
+             // writer.close()
+             MethodInvocation closeInvocation = ast.newMethodInvocation();
+             closeInvocation.setExpression(ast.newSimpleName("writer"));
+             closeInvocation.setName(ast.newSimpleName("close"));
+
+             // Create a try-finally block to ensure the writer is closed
+             TryStatement tryStatement = ast.newTryStatement();
+             Block tryBlock = ast.newBlock();
+             tryBlock.statements().add(fileWriterDecl);
+             tryBlock.statements().add(ast.newExpressionStatement(writeInvocation));
+             tryBlock.statements().add(ast.newExpressionStatement(closeInvocation));
+
+             // Create the catch part
+             CatchClause catchClause = ast.newCatchClause();
+             SingleVariableDeclaration exceptionDeclaration = ast.newSingleVariableDeclaration();
+             exceptionDeclaration.setType(ast.newSimpleType(ast.newSimpleName("Exception")));  // Exception type
+             exceptionDeclaration.setName(ast.newSimpleName("e"));  // Variable name for the exception
+             catchClause.setException(exceptionDeclaration);
+
+             Block catchBody = ast.newBlock();
+             MethodInvocation printStackTrace = ast.newMethodInvocation();
+             printStackTrace.setExpression(ast.newSimpleName("e"));
+             printStackTrace.setName(ast.newSimpleName("printStackTrace"));
+             catchBody.statements().add(ast.newExpressionStatement(printStackTrace));
+             catchClause.setBody(catchBody);
+             tryStatement.setBody(tryBlock);
+             tryStatement.catchClauses().add(catchClause);
+             toBeInserted.add(varDeclStmt); toBeInserted.add(tryStatement);
          }else{
              // get the return expression to a vdf
              VariableDeclarationFragment vdf = ast.newVariableDeclarationFragment();
