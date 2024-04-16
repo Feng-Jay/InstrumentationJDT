@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.jdt.core.dom.*;
+import org.eclipse.jface.text.Document;
+import org.eclipse.text.edits.TextEdit;
 import utils.D4JSubject;
 import utils.JavaFile;
 import visitors.InstVisitor;
@@ -28,18 +30,29 @@ public class Instrument {
         ASTParser parser = ASTParser.newParser(AST.JLS8);
         int counter = 0;
         for (String file: javaFiles) {
+            counter++;
+            if (counter > 3){
+                break;
+            }
             logger.info("Instrumenting JavaFile: " + file +" ...");
             parser.setSource(JavaFile.readFileToString(file).toCharArray());
             parser.setKind(ASTParser.K_COMPILATION_UNIT);
 
             CompilationUnit cu = (CompilationUnit) parser.createAST(null);
+            cu.recordModifications();
             InstVisitor visitor = new InstVisitor();
             cu.accept(visitor);
-            logger.info("Instumenting Done.");
-            counter++;
-            if (counter > 3){
-                break;
+            Document document = new Document(JavaFile.readFileToString(file));
+            TextEdit edits = cu.rewrite(document, null);
+            try{
+                edits.apply(document);
+                JavaFile.writeFile(document.get(), file);
+            }catch (Exception e){
+                logger.error("Unexpected Error when writing modified file to ori path!!!");
+                System.exit(-1);
             }
+            logger.info("Instumenting Done.");
+
         }
 
     }

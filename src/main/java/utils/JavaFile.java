@@ -109,6 +109,15 @@ public class JavaFile {
         return result;
     }
 
+    public static void writeFile(String content, String filePath) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+            writer.write(content);
+        } catch (IOException e) {
+            logger.error("Wtring to file: " + filePath + " failed!!!");
+            System.exit(-1);
+        }
+    }
+
     public static List<D4JSubject> readPatchInfo(){
         List<String> lines = readFileToStrings(Constant.PATCH_INFO_FILE);
         lines = lines.subList(1, lines.size());

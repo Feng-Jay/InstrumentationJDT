@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,6 +39,10 @@ public class D4JSubject {
     }
 
     public void backup(String oriDir, String tar){
+        File tmp = new File(tar);
+        if (tmp.exists()){
+            return;
+        }
         JavaFile.copyDir(oriDir, tar);
     }
 
