@@ -52,7 +52,7 @@ public class Instrument {
             importDeclaration1.setOnDemand(false);
             cu.imports().add(importDeclaration1);
 
-            InstVisitor visitor = new InstVisitor(_subject);
+            InstVisitor visitor = new InstVisitor(_subject, cu);
             cu.accept(visitor);
             Document document = new Document(JavaFile.readFileToString(file));
             TextEdit edits = cu.rewrite(document, null);
@@ -65,11 +65,11 @@ public class Instrument {
             }
             logger.info("Instumenting Done.");
         }
-        _subject.restore();
+//        _subject.restore();
     }
 
     public static void main(String[] args){
-        D4JSubject subject = new D4JSubject("Closure", "10", "src", "test", "build/src", "build/test", "");
+        D4JSubject subject = new D4JSubject("Closure", "133", "src", "test", "build/src", "build/test", "");
         Instrument instrument = new Instrument(subject);
         instrument.instrumentation();
     }

@@ -1,0 +1,2203 @@
+
+com.google.javascript.jscomp#355#RETURN-OBJECT#new Builder()
+new Builder() is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#391#RETURN-OBJECT#new Preloaded(fileName,originalPath,code)
+new Preloaded(fileName,originalPath,code) is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#323#RETURN-OBJECT#builder().buildFromCode(fileName,code)
+builder().buildFromCode(fileName,code) is NULL:false
+com.google.javascript.jscomp#355#RETURN-OBJECT#new Builder()
+new Builder() is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#391#RETURN-OBJECT#new Preloaded(fileName,originalPath,code)
+new Preloaded(fileName,originalPath,code) is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#42#RETURN-OBJECT#new DefaultCodingConvention()
+new DefaultCodingConvention() is NULL:false
+com.google.javascript.jscomp#467#RETURN-OBJECT#ImmutableList.of()
+ImmutableList.of() is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.rhino#367#RETURN-OBJECT#getMessage(messageId,null)
+getMessage(messageId,null) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#100#RETURN-OBJECT#new OldRhinoErrorReporter(compiler)
+new OldRhinoErrorReporter(compiler) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.rhino#367#RETURN-OBJECT#getMessage(messageId,null)
+getMessage(messageId,null) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.rhino#367#RETURN-OBJECT#getMessage(messageId,null)
+getMessage(messageId,null) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#96#RETURN-OBJECT#new NewRhinoErrorReporter(compiler)
+new NewRhinoErrorReporter(compiler) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.rhino#367#RETURN-OBJECT#getMessage(messageId,null)
+getMessage(messageId,null) is NULL:false
+com.google.javascript.rhino#403#RETURN-OBJECT#formatter.format(arguments)
+formatter.format(arguments) is NULL:false
+com.google.javascript.jscomp#67#RETURN-OBJECT#Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q"))
+Pattern.compile(s.replaceAll("\\{\\d+\\}","\\\\E.*\\\\Q")) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1762881216
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1148057053
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1185094730
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1699012569
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1928966831
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1438594830
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1408893211
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-751147213
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1297268510
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-856644435
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :922735798
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1668809445
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-769630425
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1762881216
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1148057053
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1185094730
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1699012569
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1928966831
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1438594830
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1408893211
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-751147213
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1297268510
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-856644435
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :922735798
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1408893211
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1148057053
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1438594830
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1928966831
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1185094730
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-751147213
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :922735798
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1762881216
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1297268510
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1699012569
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-856644435
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#59#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1589673812
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :65563086
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1314753942
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-234439139
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :491499048
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :544393059
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :931439746
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1026495715
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-814215424
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#45#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#39#RETURN-OBJECT#registerGroup(name,new DiagnosticGroup(name,UNUSED))
+registerGroup(name,new DiagnosticGroup(name,UNUSED)) is NULL:false
+com.google.javascript.jscomp#45#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :2116640653
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :954248586
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1613835652
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1759913147
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#165#RETURN-OBJECT#name
+name is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :2146309808
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-10368095
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1522798159
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.rhino.jstype#225#RETURN-OBJECT#"(" + suffix + ")"
+"(" + suffix + ")" is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :512356612
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-83109152
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1865254849
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-776441610
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1940704405
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :761454201
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :912606672
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :552726926
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-322453770
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-22082301
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :661253158
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-925668023
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1655488888
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-976867355
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754048844
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-46438357
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1443674173
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-603796953
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1525921013
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1670028058
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-570831418
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1000828321
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754384010
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1856636675
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-274479900
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1293314507
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1269856641
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-2103147591
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1592394436
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :861443466
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :36511761
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1055961501
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-389398433
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1812491930
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1381328646
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1043710898
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1589673812
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :65563086
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1314753942
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-234439139
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :491499048
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :544393059
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :931439746
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1026495715
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-814215424
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :512356612
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-83109152
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1865254849
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-776441610
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1940704405
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :761454201
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :912606672
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :552726926
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-322453770
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-22082301
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :661253158
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-925668023
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1655488888
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-976867355
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754048844
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-46438357
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1443674173
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-603796953
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1525921013
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1670028058
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-570831418
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1000828321
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754384010
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1856636675
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-274479900
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1293314507
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1269856641
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-2103147591
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1592394436
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :861443466
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :36511761
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1055961501
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-389398433
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1812491930
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :931439746
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1525921013
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1000828321
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-274479900
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1314753942
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1026495715
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :512356612
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-776441610
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :661253158
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-46438357
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :544393059
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :861443466
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1812491930
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1589673812
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1670028058
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-389398433
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-925668023
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-234439139
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :761454201
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1655488888
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1293314507
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-2103147591
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :491499048
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-976867355
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-603796953
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :65563086
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1856636675
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1592394436
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-83109152
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-22082301
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1055961501
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1865254849
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1269856641
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-322453770
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1443674173
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :912606672
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-814215424
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1940704405
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754384010
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :36511761
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :754048844
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :552726926
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-570831418
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#59#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-238959376
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1088407873
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1602878289
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :710887965
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1668809445
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-769630425
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1454112274
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1088407873
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-234439139
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1915725489
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1944552566
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :181485500
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1950488533
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :-1202929300
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :83062907
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1029713003
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :478570520
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#77#RETURN-OBJECT#make(name,CheckLevel.OFF,descriptionFormat)
+make(name,CheckLevel.OFF,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#65#RETURN-OBJECT#make(name,CheckLevel.WARNING,descriptionFormat)
+make(name,CheckLevel.WARNING,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#52#RETURN-OBJECT#group
+group is NULL:false
+com.google.javascript.jscomp#88#IF-CONDITION#guard instanceof ComposeWarningsGuard
+guard instanceof ComposeWarningsGuard :false
+com.google.javascript.jscomp#84#RETURN-VALUE#Priority.DEFAULT.value
+Priority.DEFAULT.value :50
+com.google.javascript.jscomp#84#RETURN-VALUE#Priority.DEFAULT.value
+Priority.DEFAULT.value :50
+com.google.javascript.jscomp#64#IF-CONDITION#priorityDiff != 0
+priorityDiff != 0 :false
+com.google.javascript.jscomp#70#RETURN-VALUE#orderOfAddition.get(b).intValue() - orderOfAddition.get(a).intValue()
+orderOfAddition.get(b).intValue() - orderOfAddition.get(a).intValue() :0
+com.google.javascript.jscomp#42#RETURN-OBJECT#new DefaultCodingConvention()
+new DefaultCodingConvention() is NULL:false
+com.google.javascript.jscomp#467#RETURN-OBJECT#ImmutableList.of()
+ImmutableList.of() is NULL:false
+com.google.javascript.jscomp#355#RETURN-OBJECT#new Builder()
+new Builder() is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#391#RETURN-OBJECT#new Preloaded(fileName,originalPath,code)
+new Preloaded(fileName,originalPath,code) is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#323#RETURN-OBJECT#builder().buildFromCode(fileName,code)
+builder().buildFromCode(fileName,code) is NULL:false
+com.google.javascript.jscomp#355#RETURN-OBJECT#new Builder()
+new Builder() is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#391#RETURN-OBJECT#new Preloaded(fileName,originalPath,code)
+new Preloaded(fileName,originalPath,code) is NULL:false
+com.google.javascript.jscomp#82#IF-CONDITION#fileName == null || fileName.isEmpty()
+fileName == null :false
+ fileName.isEmpty() :false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#54#RETURN-OBJECT#make(name,CheckLevel.ERROR,descriptionFormat)
+make(name,CheckLevel.ERROR,descriptionFormat) is NULL:false
+com.google.javascript.jscomp#91#RETURN-OBJECT#new DiagnosticType(name,level,new MessageFormat(descriptionFormat))
+new DiagnosticType(name,level,new MessageFormat(descriptionFormat)) is NULL:false
+com.google.javascript.jscomp#175#RETURN-OBJECT#fileName
+fileName is NULL:false
+com.google.javascript.jscomp#175#RETURN-OBJECT#fileName
+fileName is NULL:false
+com.google.javascript.jscomp#69#RETURN-OBJECT#inputId
+inputId is NULL:false
+com.google.javascript.jscomp#74#RETURN-OBJECT#sourceFile
+sourceFile is NULL:false
+com.google.javascript.jscomp#78#IF-CONDITION#ast != null && ast.getSourceFile() != null
+ast != null :true
+ ast.getSourceFile() != null :true
+com.google.javascript.jscomp#74#RETURN-OBJECT#sourceFile
+sourceFile is NULL:false
+com.google.javascript.jscomp#276#IF-CONDITION#errorManager == null
+errorManager == null :true
+com.google.javascript.jscomp#277#IF-CONDITION#outStream == null
+outStream == null :true
+com.google.javascript.jscomp#1280#RETURN-VALUE#colorizeErrorOutput
+colorizeErrorOutput :false
+com.google.javascript.jscomp#267#RETURN-OBJECT#options.errorFormat.toFormatter(this,colorize)
+options.errorFormat.toFormatter(this,colorize) is NULL:false
+com.google.javascript.jscomp#50#IF-CONDITION#level.isOn()
+level.isOn() :true
+com.google.javascript.jscomp#129#RETURN-OBJECT#types
+types is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :true
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :true
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :true
+com.google.javascript.jscomp#53#RETURN-VALUE#true
+true :true
+com.google.javascript.jscomp#151#IF-CONDITION#guard.enables(group)
+guard.enables(group) :true
+com.google.javascript.jscomp#152#RETURN-VALUE#true
+true :true
+com.google.javascript.jscomp#1071#RETURN-VALUE#warningsGuard.enables(type)
+warningsGuard.enables(type) :true
+com.google.javascript.jscomp#289#IF-CONDITION#options.enables(DiagnosticGroups.CHECK_TYPES)
+options.enables(DiagnosticGroups.CHECK_TYPES) :true
+com.google.javascript.jscomp#129#RETURN-OBJECT#types
+types is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1916739005
+com.google.javascript.jscomp#71#IF-CONDITION#!singletons.containsKey(type)
+!singletons.containsKey(type) :true
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1916739005
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1916739005
+com.google.javascript.jscomp#74#RETURN-OBJECT#singletons.get(type)
+singletons.get(type) is NULL:false
+com.google.javascript.jscomp#121#RETURN-VALUE#key.hashCode()
+key.hashCode() :1916739005
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#118#IF-CONDITION#!matches(type)
+!matches(type) :true
+com.google.javascript.jscomp#119#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#45#RETURN-VALUE#!level.isOn() && group.isSubGroup(otherGroup)
+!level.isOn() :false
+ group.isSubGroup(otherGroup) :false
+com.google.javascript.jscomp#131#IF-CONDITION#guard.disables(singleton)
+guard.disables(singleton) :false
+com.google.javascript.jscomp#50#IF-CONDITION#level.isOn()
+level.isOn() :true
+com.google.javascript.jscomp#129#RETURN-OBJECT#types
+types is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#58#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#133#IF-CONDITION#guard.enables(singleton)
+guard.enables(singleton) :false
+com.google.javascript.jscomp#138#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#1079#RETURN-VALUE#warningsGuard.disables(type)
+warningsGuard.disables(type) :false
+com.google.javascript.jscomp#303#IF-CONDITION#options.checkGlobalThisLevel.isOn() && !options.disables(DiagnosticGroups.GLOBAL_THIS)
+options.checkGlobalThisLevel.isOn() :false
+ !options.disables(DiagnosticGroups.GLOBAL_THIS) :true
+com.google.javascript.jscomp#1415#RETURN-OBJECT#languageIn
+languageIn is NULL:false
+com.google.javascript.jscomp#310#IF-CONDITION#options.getLanguageIn() == LanguageMode.ECMASCRIPT5_STRICT
+options.getLanguageIn() == LanguageMode.ECMASCRIPT5_STRICT :false
+com.google.javascript.jscomp#2064#RETURN-OBJECT#new DiagnosticGroups()
+new DiagnosticGroups() is NULL:false
+com.google.javascript.jscomp#64#RETURN-OBJECT#ImmutableMap.copyOf(groupsByName)
+ImmutableMap.copyOf(groupsByName) is NULL:false
+com.google.javascript.jscomp#1090#RETURN-OBJECT#warningsGuard
+warningsGuard is NULL:false
+com.google.javascript.jscomp#88#IF-CONDITION#guard instanceof ComposeWarningsGuard
+guard instanceof ComposeWarningsGuard :false
+com.google.javascript.jscomp#99#RETURN-VALUE#WarningsGuard.Priority.SUPPRESS_DOC.value
+WarningsGuard.Priority.SUPPRESS_DOC.value :20
+com.google.javascript.jscomp#99#RETURN-VALUE#WarningsGuard.Priority.SUPPRESS_DOC.value
+WarningsGuard.Priority.SUPPRESS_DOC.value :20
+com.google.javascript.jscomp#64#IF-CONDITION#priorityDiff != 0
+priorityDiff != 0 :false
+com.google.javascript.jscomp#70#RETURN-VALUE#orderOfAddition.get(b).intValue() - orderOfAddition.get(a).intValue()
+orderOfAddition.get(b).intValue() - orderOfAddition.get(a).intValue() :0
+com.google.javascript.jscomp#88#IF-CONDITION#guard instanceof ComposeWarningsGuard
+guard instanceof ComposeWarningsGuard :true
+com.google.javascript.jscomp#90#IF-CONDITION#composeGuard.demoteErrors
+composeGuard.demoteErrors :false
+com.google.javascript.jscomp#88#IF-CONDITION#guard instanceof ComposeWarningsGuard
+guard instanceof ComposeWarningsGuard :false
+com.google.javascript.jscomp#84#RETURN-VALUE#Priority.DEFAULT.value
+Priority.DEFAULT.value :50
+com.google.javascript.jscomp#99#RETURN-VALUE#WarningsGuard.Priority.SUPPRESS_DOC.value
+WarningsGuard.Priority.SUPPRESS_DOC.value :20
+com.google.javascript.jscomp#64#IF-CONDITION#priorityDiff != 0
+priorityDiff != 0 :true
+com.google.javascript.jscomp#65#RETURN-VALUE#priorityDiff
+priorityDiff :30
+com.google.javascript.jscomp#84#RETURN-VALUE#Priority.DEFAULT.value
+Priority.DEFAULT.value :50
+com.google.javascript.jscomp#99#RETURN-VALUE#WarningsGuard.Priority.SUPPRESS_DOC.value
+WarningsGuard.Priority.SUPPRESS_DOC.value :20
+com.google.javascript.jscomp#64#IF-CONDITION#priorityDiff != 0
+priorityDiff != 0 :true
+com.google.javascript.jscomp#65#RETURN-VALUE#priorityDiff
+priorityDiff :30
+com.google.javascript.jscomp#106#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#151#IF-CONDITION#guard.enables(group)
+guard.enables(group) :false
+com.google.javascript.jscomp#95#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#153#IF-CONDITION#guard.disables(group)
+guard.disables(group) :false
+com.google.javascript.jscomp#50#IF-CONDITION#level.isOn()
+level.isOn() :true
+com.google.javascript.jscomp#129#RETURN-OBJECT#types
+types is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#52#IF-CONDITION#group.matches(type)
+group.matches(type) :false
+com.google.javascript.jscomp#58#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#151#IF-CONDITION#guard.enables(group)
+guard.enables(group) :false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#118#IF-CONDITION#!matches(type)
+!matches(type) :true
+com.google.javascript.jscomp#119#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#45#RETURN-VALUE#!level.isOn() && group.isSubGroup(otherGroup)
+!level.isOn() :false
+ group.isSubGroup(otherGroup) :false
+com.google.javascript.jscomp#153#IF-CONDITION#guard.disables(group)
+guard.disables(group) :false
+com.google.javascript.jscomp#158#RETURN-VALUE#false
+false :false
+com.google.javascript.jscomp#330#IF-CONDITION#!options.checkSymbols && !composedGuards.enables(DiagnosticGroups.CHECK_VARIABLES)
+!options.checkSymbols :false
+ !composedGuards.enables(DiagnosticGroups.CHECK_VARIABLES) :true
+com.google.javascript.jscomp#446#IF-CONDITION#modules.isEmpty()
+modules.isEmpty() :false
+com.google.javascript.jscomp#205#RETURN-OBJECT#inputs
+inputs is NULL:false
+com.google.javascript.jscomp#448#IF-CONDITION#modules.get(0).getInputs().isEmpty() && modules.size() > 1
+modules.get(0).getInputs().isEmpty() :false
+ modules.size() > 1 :false
+com.google.javascript.jscomp#205#RETURN-OBJECT#inputs
+inputs is NULL:false
+com.google.javascript.jscomp#469#IF-CONDITION#module.getInputs().isEmpty()
+module.getInputs().isEmpty() :false
+com.google.javascript.jscomp#175#RETURN-OBJECT#fileName
+fileName is NULL:false
+com.google.javascript.jscomp#175#RETURN-OBJECT#fileName
+fileName is NULL:false
+com.google.javascript.jscomp#69#RETURN-OBJECT#inputId
+inputId is NULL:false
+com.google.javascript.jscomp#74#RETURN-OBJECT#sourceFile
+sourceFile is NULL:false
+com.google.javascript.jscomp#78#IF-CONDITION#ast != null && ast.getSourceFile() != null
+ast != null :true
+ ast.getSourceFile() != null :true
+com.google.javascript.jscomp#74#RETURN-OBJECT#sourceFile
+sourceFile is NULL:false
+com.google.javascript.jscomp#430#RETURN-OBJECT#inputs
+inputs is NULL:false
+com.google.javascript.jscomp#393#IF-CONDITION#modules.size() > 1
+modules.size() > 1 :false
+com.google.javascript.jscomp#205#RETURN-OBJECT#inputs
+inputs is NULL:false
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#100#RETURN-OBJECT#id.getIdName()
+id.getIdName() is NULL:false
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#505#RETURN-OBJECT#inputs
+inputs is NULL:false
+com.google.javascript.jscomp#418#IF-CONDITION#options.sourceMapOutputPath != null
+options.sourceMapOutputPath != null :false
+com.google.javascript.jscomp#94#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.rhino#61#RETURN-VALUE#id.hashCode()
+id.hashCode() :-1305660205
+com.google.javascript.jscomp#1080#RETURN-OBJECT#inputsById.put(id,input)
+inputsById.put(id,input) is NULL:true
+com.google.javascript.rhino#61#RETURN-VALUE#id.hashCode()
+id.hashCode() :-1305660205
+com.google.javascript.jscomp#523#IF-CONDITION#previous != null
+previous != null :true
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#100#RETURN-OBJECT#id.getIdName()
+id.getIdName() is NULL:false
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#74#RETURN-OBJECT#new JSError(null,null,-1,-1,type,null,arguments)
+new JSError(null,null,-1,-1,type,null,arguments) is NULL:false
+com.google.javascript.jscomp#232#RETURN-OBJECT#defaultLevel
+defaultLevel is NULL:false
+com.google.javascript.jscomp#2070#IF-CONDITION#warningsGuard != null
+warningsGuard != null :true
+com.google.javascript.jscomp#54#IF-CONDITION#node != null
+node != null :false
+com.google.javascript.jscomp#92#RETURN-OBJECT#null
+null is NULL:true
+com.google.javascript.jscomp#114#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#169#RETURN-OBJECT#type
+type is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#103#RETURN-VALUE#matches(error.getType())
+matches(error.getType()) :false
+com.google.javascript.jscomp#40#RETURN-OBJECT#group.matches(error) ? level : null
+group.matches(error) ? level : null is NULL:true
+com.google.javascript.jscomp#169#RETURN-OBJECT#type
+type is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#103#RETURN-VALUE#matches(error.getType())
+matches(error.getType()) :false
+com.google.javascript.jscomp#114#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#121#RETURN-OBJECT#null
+null is NULL:true
+com.google.javascript.jscomp#2072#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#2077#IF-CONDITION#level.isOn()
+level.isOn() :true
+com.google.javascript.jscomp#2219#RETURN-OBJECT#options
+options is NULL:false
+com.google.javascript.jscomp#2078#IF-CONDITION#getOptions().errorHandler != null
+getOptions().errorHandler != null :false
+com.google.javascript.jscomp#131#IF-CONDITION#p2 == null
+p2 == null :false
+com.google.javascript.jscomp#140#IF-CONDITION#p1.level != p2.level
+p1.level != p2.level :false
+com.google.javascript.jscomp#147#IF-CONDITION#source1 != null && source2 != null
+source1 != null :false
+ source2 != null :false
+com.google.javascript.jscomp#152#IF-CONDITION#source1 == null && source2 != null
+source1 == null :true
+ source2 != null :false
+com.google.javascript.jscomp#154#IF-CONDITION#source1 != null && source2 == null
+source1 != null :false
+ source2 == null :true
+com.google.javascript.jscomp#160#IF-CONDITION#lineno1 != lineno2
+lineno1 != lineno2 :false
+com.google.javascript.jscomp#162#IF-CONDITION#lineno1 < 0 && 0 <= lineno2
+lineno1 < 0 :true
+ 0 <= lineno2 :false
+com.google.javascript.jscomp#164#IF-CONDITION#0 <= lineno1 && lineno2 < 0
+0 <= lineno1 :false
+ lineno2 < 0 :true
+com.google.javascript.jscomp#204#RETURN-VALUE#charno
+charno :-1
+com.google.javascript.jscomp#204#RETURN-VALUE#charno
+charno :-1
+com.google.javascript.jscomp#170#IF-CONDITION#charno1 != charno2
+charno1 != charno2 :false
+com.google.javascript.jscomp#172#IF-CONDITION#charno1 < 0 && 0 <= charno2
+charno1 < 0 :true
+ 0 <= charno2 :false
+com.google.javascript.jscomp#174#IF-CONDITION#0 <= charno1 && charno2 < 0
+0 <= charno1 :false
+ charno2 < 0 :true
+com.google.javascript.jscomp#178#RETURN-VALUE#p1.error.description.compareTo(p2.error.description)
+p1.error.description.compareTo(p2.error.description) :0
+com.google.javascript.jscomp#46#IF-CONDITION#messages.add(new ErrorWithLevel(error,level))
+messages.add(new ErrorWithLevel(error,level)) :true
+com.google.javascript.jscomp#47#IF-CONDITION#level == CheckLevel.ERROR
+level == CheckLevel.ERROR :true
+com.google.javascript.jscomp#94#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.rhino#61#RETURN-VALUE#id.hashCode()
+id.hashCode() :-1146332801
+com.google.javascript.jscomp#1080#RETURN-OBJECT#inputsById.put(id,input)
+inputsById.put(id,input) is NULL:true
+com.google.javascript.rhino#61#RETURN-VALUE#id.hashCode()
+id.hashCode() :-1146332801
+com.google.javascript.jscomp#530#IF-CONDITION#previous != null
+previous != null :true
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#100#RETURN-OBJECT#id.getIdName()
+id.getIdName() is NULL:false
+com.google.javascript.rhino#56#RETURN-OBJECT#id
+id is NULL:false
+com.google.javascript.jscomp#74#RETURN-OBJECT#new JSError(null,null,-1,-1,type,null,arguments)
+new JSError(null,null,-1,-1,type,null,arguments) is NULL:false
+com.google.javascript.jscomp#232#RETURN-OBJECT#defaultLevel
+defaultLevel is NULL:false
+com.google.javascript.jscomp#2070#IF-CONDITION#warningsGuard != null
+warningsGuard != null :true
+com.google.javascript.jscomp#54#IF-CONDITION#node != null
+node != null :false
+com.google.javascript.jscomp#92#RETURN-OBJECT#null
+null is NULL:true
+com.google.javascript.jscomp#114#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#169#RETURN-OBJECT#type
+type is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#103#RETURN-VALUE#matches(error.getType())
+matches(error.getType()) :false
+com.google.javascript.jscomp#40#RETURN-OBJECT#group.matches(error) ? level : null
+group.matches(error) ? level : null is NULL:true
+com.google.javascript.jscomp#169#RETURN-OBJECT#type
+type is NULL:false
+com.google.javascript.jscomp#115#RETURN-VALUE#type instanceof DiagnosticType && ((DiagnosticType)type).key.equals(key)
+type instanceof DiagnosticType :true
+ ((DiagnosticType)type).key.equals(key) :false
+com.google.javascript.jscomp#110#RETURN-VALUE#types.contains(type)
+types.contains(type) :false
+com.google.javascript.jscomp#103#RETURN-VALUE#matches(error.getType())
+matches(error.getType()) :false
+com.google.javascript.jscomp#114#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#121#RETURN-OBJECT#null
+null is NULL:true
+com.google.javascript.jscomp#2072#IF-CONDITION#newLevel != null
+newLevel != null :false
+com.google.javascript.jscomp#2077#IF-CONDITION#level.isOn()
+level.isOn() :true
+com.google.javascript.jscomp#2219#RETURN-OBJECT#options
+options is NULL:false
+com.google.javascript.jscomp#2078#IF-CONDITION#getOptions().errorHandler != null
+getOptions().errorHandler != null :false
+com.google.javascript.jscomp#131#IF-CONDITION#p2 == null
+p2 == null :false
+com.google.javascript.jscomp#140#IF-CONDITION#p1.level != p2.level
+p1.level != p2.level :false
+com.google.javascript.jscomp#147#IF-CONDITION#source1 != null && source2 != null
+source1 != null :false
+ source2 != null :false
+com.google.javascript.jscomp#152#IF-CONDITION#source1 == null && source2 != null
+source1 == null :true
+ source2 != null :false
+com.google.javascript.jscomp#154#IF-CONDITION#source1 != null && source2 == null
+source1 != null :false
+ source2 == null :true
+com.google.javascript.jscomp#160#IF-CONDITION#lineno1 != lineno2
+lineno1 != lineno2 :false
+com.google.javascript.jscomp#162#IF-CONDITION#lineno1 < 0 && 0 <= lineno2
+lineno1 < 0 :true
+ 0 <= lineno2 :false
+com.google.javascript.jscomp#164#IF-CONDITION#0 <= lineno1 && lineno2 < 0
+0 <= lineno1 :false
+ lineno2 < 0 :true
+com.google.javascript.jscomp#204#RETURN-VALUE#charno
+charno :-1
+com.google.javascript.jscomp#204#RETURN-VALUE#charno
+charno :-1
+com.google.javascript.jscomp#170#IF-CONDITION#charno1 != charno2
+charno1 != charno2 :false
+com.google.javascript.jscomp#172#IF-CONDITION#charno1 < 0 && 0 <= charno2
+charno1 < 0 :true
+ 0 <= charno2 :false
+com.google.javascript.jscomp#174#IF-CONDITION#0 <= charno1 && charno2 < 0
+0 <= charno1 :false
+ charno2 < 0 :true
+com.google.javascript.jscomp#178#RETURN-VALUE#p1.error.description.compareTo(p2.error.description)
+p1.error.description.compareTo(p2.error.description) :4
+com.google.javascript.jscomp#46#IF-CONDITION#messages.add(new ErrorWithLevel(error,level))
+messages.add(new ErrorWithLevel(error,level)) :true
+com.google.javascript.jscomp#47#IF-CONDITION#level == CheckLevel.ERROR
+level == CheckLevel.ERROR :true
+com.google.javascript.jscomp#1184#IF-CONDITION#typeRegistry == null
+typeRegistry == null :true
+com.google.javascript.rhino.jstype#119#IF-CONDITION#nativeType || implicitPrototype != null
+nativeType :true
+ implicitPrototype != null :false
+com.google.javascript.rhino.jstype#537#RETURN-VALUE#!unknown
+!unknown :false
+com.google.javascript.rhino.jstype#505#RETURN-VALUE#super.hasCachedValues()
+super.hasCachedValues() :false
+com.google.javascript.rhino#548#RETURN-OBJECT#last
+last is NULL:true

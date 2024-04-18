@@ -48,8 +48,8 @@ public class D4JSubject {
 
     public void restore(){
         String src = _d4jHome + _src;
-        backup(src + "_bak", src);
+        JavaFile.copyDir(src + "_bak", src);
         String test = _d4jHome + _test;
-        backup(test + "_bak", test);
+        JavaFile.copyDir(test + "_bak", test);
     }
 }
