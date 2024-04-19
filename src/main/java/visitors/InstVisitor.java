@@ -33,6 +33,14 @@ public class InstVisitor extends ASTVisitor {
 
      private Type getType(String baseType, AST ast){
          switch (baseType){
+             case "byte":
+                 return ast.newPrimitiveType(PrimitiveType.BYTE);
+             case "Byte":
+                 return ast.newSimpleType(ast.newSimpleName("Byte"));
+             case "short":
+                 return ast.newPrimitiveType(PrimitiveType.SHORT);
+             case "Short":
+                 return ast.newSimpleType(ast.newSimpleName("Short"));
              case "int":
                  return ast.newPrimitiveType(PrimitiveType.INT);
              case "Integer":
@@ -62,6 +70,13 @@ public class InstVisitor extends ASTVisitor {
          }
      }
 
+     private Expression getInitData(String requireType, AST ast){
+         if (requireType.equals("boolean") || requireType.equals("Boolean")){
+             return ast.newBooleanLiteral(false);
+         }else{
+             return ast.newNumberLiteral("0");
+         }
+     }
      public boolean hasBlock(ASTNode node){
           return  node instanceof TypeDeclaration  || node instanceof EnumDeclaration || node instanceof MethodDeclaration || node instanceof Block || node instanceof CatchClause
                   || node instanceof DoStatement || node instanceof EnhancedForStatement || node instanceof ForStatement
@@ -84,7 +99,12 @@ public class InstVisitor extends ASTVisitor {
      public boolean visit(MethodDeclaration node){
          if(node.getReturnType2() == null){
              _retType = null;
-         }else {
+         }else if (node.getReturnType2().toString().equals("Object") || node.getReturnType2().toString().equals("Number")){
+             _retType = null;
+         }else if (node.typeParameters().size() > 0){
+             _retType = null;
+         }
+         else {
              _retType = node.getReturnType2().toString();
 //             logger.debug(node.getName() + " 's retType:" + _retType);
          }
@@ -305,6 +325,8 @@ public class InstVisitor extends ASTVisitor {
          List<Expression> subExprs = new ArrayList<>();
          List<InfixExpression.Operator> subOps = new ArrayList<>();
          List<Statement> ret = new ArrayList<>();
+//         List<Statement> varDeclStmts = new ArrayList<>();
+//         List<Statement> assignStmts = new ArrayList<>();
          Type requiredType;
          if (isBaseType(requiredTypeStr)){
              requiredType = getType(requiredTypeStr, ast);
@@ -314,6 +336,7 @@ public class InstVisitor extends ASTVisitor {
 //         Expression checkedExpr = (Expression) ASTNode.copySubtree(ast, oriExpr);
          int oriCounter = _localVarCounter;
          if (isNullCheck){
+             // DeclVar
              VariableDeclarationFragment vdf = ast.newVariableDeclarationFragment();
              vdf.setName(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
              InfixExpression tmpRHS = ast.newInfixExpression();
@@ -325,9 +348,9 @@ public class InstVisitor extends ASTVisitor {
              vdf.setInitializer(tmpRHS);
              VariableDeclarationStatement varDecl = ast.newVariableDeclarationStatement(vdf);
              varDecl.setType(requiredType);
-             ret.add(varDecl);
-             _localVarCounter ++;
              subExprs.add(checkedExpr);
+             _localVarCounter ++;
+             ret.add(varDecl);
          }else{
              if (requiredTypeStr.equals("boolean") || requiredTypeStr.equals("Boolean")){
                  Pair<List<Expression>, List<InfixExpression.Operator>> tmpRes = infixSpliter(checkedExpr);
@@ -346,6 +369,7 @@ public class InstVisitor extends ASTVisitor {
              List<VariableDeclarationFragment> listVdfs = new ArrayList<>();
              for (Expression expression: subExprs){
                  logger.debug("current expr:" + expression);
+                 // make the varDeclFragment
                  VariableDeclarationFragment vdf = ast.newVariableDeclarationFragment();
                  vdf.setName(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
                  ParenthesizedExpression tmpInit = ast.newParenthesizedExpression();
@@ -358,6 +382,8 @@ public class InstVisitor extends ASTVisitor {
              for(int i = 1; i < listVdfs.size(); ++i){
                  varDecl.fragments().add(listVdfs.get(i));
              }
+             logger.debug("RequiredType: " + requiredType);
+             logger.debug("RequiredTypeStr: " + requiredTypeStr);
              varDecl.setType(requiredType);
              ret.add(varDecl);
          }
@@ -421,10 +447,11 @@ public class InstVisitor extends ASTVisitor {
              replaceExpr = queueExprs.poll();
              VariableDeclarationFragment vdf = ast.newVariableDeclarationFragment();
              vdf.setName(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
+             vdf.setInitializer(getInitData(requiredTypeStr, ast));
              ParenthesizedExpression tmpInit = ast.newParenthesizedExpression();
              tmpInit.setExpression(replaceExpr);
              vdf.setInitializer(tmpInit);
-             // todo: add vdf to vdfDecl
+
              VariableDeclarationStatement varDeclStmt = ast.newVariableDeclarationStatement(vdf);
              varDeclStmt.setType(ast.newPrimitiveType(PrimitiveType.BOOLEAN));
              ret.add(varDeclStmt);
@@ -475,6 +502,7 @@ public class InstVisitor extends ASTVisitor {
          // add to block
          TryStatement tryStatement = ast.newTryStatement();
          Block tryBlock = ast.newBlock();
+
          tryBlock.statements().add(fileWriterDecl);
          tryBlock.statements().add(ast.newExpressionStatement(writeInvocation));
          tryBlock.statements().add(ast.newExpressionStatement(closeInvocation));

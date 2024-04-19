@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 import org.eclipse.jdt.core.dom.*;
@@ -8,6 +9,7 @@ import utils.D4JSubject;
 import utils.JavaFile;
 import visitors.InstVisitor;
 
+import static utils.ExecCmd.compileBug;
 import static utils.LLogger.logger;
 
 public class Instrument {
@@ -28,12 +30,7 @@ public class Instrument {
 
         // Instrumenting files
         ASTParser parser = ASTParser.newParser(AST.JLS8);
-        int counter = 0;
         for (String file: javaFiles) {
-//            counter++;
-//            if (counter > 3){
-//                break;
-//            }
             logger.info("Instrumenting JavaFile: " + file +" ...");
             parser.setSource(JavaFile.readFileToString(file).toCharArray());
             parser.setKind(ASTParser.K_COMPILATION_UNIT);
@@ -53,8 +50,7 @@ public class Instrument {
             cu.imports().add(importDeclaration1);
 
             InstVisitor visitor = new InstVisitor(_subject, cu);
-            cu.accept(visitor);
-            Document document = new Document(JavaFile.readFileToString(file));
+            cu.accept(visitor);Document document = new Document(JavaFile.readFileToString(file));
             TextEdit edits = cu.rewrite(document, null);
             try{
                 edits.apply(document);
@@ -65,11 +61,23 @@ public class Instrument {
             }
             logger.info("Instumenting Done.");
         }
-//        _subject.restore();
+        String result = compileBug(_subject).toString();
+        logger.info("Compile outcome: " + result);
+        if(result.contains("FAILED")){
+            logger.error("Failed to compile: " + _subject._proj + "_" + _subject._idNum);
+            _subject.restore();
+            System.exit(-1);
+        }else{
+            _subject.restore();
+        }
     }
 
     public static void main(String[] args){
-        D4JSubject subject = new D4JSubject("Closure", "133", "src", "test", "build/src", "build/test", "");
+//        D4JSubject subject = new D4JSubject("Closure", "133", "src", "test", "build/src", "build/test", "");
+        D4JSubject subject = new D4JSubject("Mockito", "8", "src", "test", "target/classes", "target/tests-classes", "");
+//        D4JSubject subject = new D4JSubject("Codec", "3", "src/java", "src/test", "", "", "");
+//        D4JSubject subject = new D4JSubject("Math", "94", "src/java", "src/test", "target/classes", "", "");
+//        D4JSubject subject = new D4JSubject("Time", "11", "src/main/java", "src/test/java", "", "","");
         Instrument instrument = new Instrument(subject);
         instrument.instrumentation();
     }
