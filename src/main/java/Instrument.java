@@ -65,7 +65,7 @@ public class Instrument {
         logger.info("Compile outcome: " + result);
         if(result.contains("FAILED")){
             logger.error("Failed to compile: " + _subject._proj + "_" + _subject._idNum);
-            _subject.restore();
+//            _subject.restore();
             System.exit(-1);
         }else{
             _subject.restore();
@@ -74,10 +74,11 @@ public class Instrument {
 
     public static void main(String[] args){
 //        D4JSubject subject = new D4JSubject("Closure", "133", "src", "test", "build/src", "build/test", "");
-        D4JSubject subject = new D4JSubject("Mockito", "8", "src", "test", "target/classes", "target/tests-classes", "");
+//        D4JSubject subject = new D4JSubject("Mockito", "8", "src", "test", "target/classes", "target/tests-classes", "");
 //        D4JSubject subject = new D4JSubject("Codec", "3", "src/java", "src/test", "", "", "");
 //        D4JSubject subject = new D4JSubject("Math", "94", "src/java", "src/test", "target/classes", "", "");
 //        D4JSubject subject = new D4JSubject("Time", "11", "src/main/java", "src/test/java", "", "","");
+        D4JSubject subject = new D4JSubject("Lang", "6", "src/main/java", "src/test/java", "", "", "");
         Instrument instrument = new Instrument(subject);
         instrument.instrumentation();
     }

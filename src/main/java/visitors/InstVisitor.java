@@ -16,8 +16,10 @@ public class InstVisitor extends ASTVisitor {
      private int _localVarCounter = 0;
      private D4JSubject _subject = null;
      private Stack<String> _counterStack;
+     private Stack<Type> _typeStack;
      private String _packageName;
      private String _retType;
+     private Type _retTypeType;
      private List<String> _baseTypes = new ArrayList<>(List.of("byte", "Byte", "short", "Short", "char", "Character",
              "int", "Integer", "long", "Long", "float", "Float", "double", "Double", "boolean", "Boolean"));
 
@@ -25,6 +27,7 @@ public class InstVisitor extends ASTVisitor {
          _cu = cu;
         _subject = subject;
         _counterStack = new Stack<>();
+        _typeStack = new Stack<>();
      }
 
      private boolean isBaseType(String type){
@@ -99,16 +102,22 @@ public class InstVisitor extends ASTVisitor {
      public boolean visit(MethodDeclaration node){
          if(node.getReturnType2() == null){
              _retType = null;
+             _retTypeType = null;
          }else if (node.getReturnType2().toString().equals("Object") || node.getReturnType2().toString().equals("Number")){
              _retType = null;
+             _retTypeType = null;
          }else if (node.typeParameters().size() > 0){
              _retType = null;
+             _retTypeType = null;
          }
          else {
              _retType = node.getReturnType2().toString();
+             AST ast = node.getAST();
+             _retTypeType = (Type) ASTNode.copySubtree(ast, node.getReturnType2());
 //             logger.debug(node.getName() + " 's retType:" + _retType);
          }
          _counterStack.push(_retType);
+         _typeStack.push(_retTypeType);
          return true;
      }
 
@@ -331,34 +340,63 @@ public class InstVisitor extends ASTVisitor {
          if (isBaseType(requiredTypeStr)){
              requiredType = getType(requiredTypeStr, ast);
          }else{
-             requiredType = ast.newSimpleType(ast.newSimpleName(requiredTypeStr));
+//             if(requiredTypeStr.endsWith("[]")){
+//                 String typeArray = requiredTypeStr.substring(0, requiredTypeStr.length() - 2);
+//                 if (isBaseType(typeArray)){
+//                     requiredType = ast.newArrayType(getType(typeArray, ast));
+//                 }else{
+//                     requiredType = ast.newArrayType(ast.newSimpleType(ast.newSimpleName(requiredTypeStr.substring(0, requiredTypeStr.length()-2))));
+//                 }
+//             }else if(requiredTypeStr.contains("<") && requiredTypeStr.contains(">")){
+//                 ParameterizedType containerType = ast.newParameterizedType(ast.newSimpleType())
+//             }
+//             else
+//                requiredType = ast.newSimpleType(ast.newSimpleName(requiredTypeStr));
+             requiredType = (Type) ASTNode.copySubtree(ast, _retTypeType);
          }
 //         Expression checkedExpr = (Expression) ASTNode.copySubtree(ast, oriExpr);
          int oriCounter = _localVarCounter;
          if (isNullCheck){
              // DeclVar
+             VariableDeclarationFragment vdfOri = ast.newVariableDeclarationFragment();
+             vdfOri.setName(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
+             ParenthesizedExpression vdfInitialize = ast.newParenthesizedExpression();
+             vdfInitialize.setExpression(checkedExpr);
+             vdfOri.setInitializer(vdfInitialize);
+             VariableDeclarationStatement vdfDeclOri = ast.newVariableDeclarationStatement(vdfOri);
+             vdfDeclOri.setType(requiredType);
+             _localVarCounter ++;
+             ret.add(vdfDeclOri);
+
              VariableDeclarationFragment vdf = ast.newVariableDeclarationFragment();
              vdf.setName(ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter));
              InfixExpression tmpRHS = ast.newInfixExpression();
-             ParenthesizedExpression tmpRHSLHS = ast.newParenthesizedExpression();
-             tmpRHSLHS.setExpression(checkedExpr);
-             tmpRHS.setLeftOperand(tmpRHSLHS);
+//             ParenthesizedExpression tmpRHSLHS = ast.newParenthesizedExpression();
+//             tmpRHSLHS.setExpression(checkedExpr);
+//             tmpRHS.setLeftOperand(tmpRHSLHS);
+             tmpRHS.setLeftOperand(ast.newSimpleName(Constant.INSTRUMENTPREFIX + oriCounter));
              tmpRHS.setOperator(InfixExpression.Operator.EQUALS);
              tmpRHS.setRightOperand(ast.newNullLiteral());
              vdf.setInitializer(tmpRHS);
              VariableDeclarationStatement varDecl = ast.newVariableDeclarationStatement(vdf);
-             varDecl.setType(requiredType);
+             varDecl.setType(ast.newPrimitiveType(PrimitiveType.BOOLEAN));
              subExprs.add(checkedExpr);
              _localVarCounter ++;
              ret.add(varDecl);
          }else{
              if (requiredTypeStr.equals("boolean") || requiredTypeStr.equals("Boolean")){
-                 Pair<List<Expression>, List<InfixExpression.Operator>> tmpRes = infixSpliter(checkedExpr);
-                 if(tmpRes != null){
-                     subExprs = tmpRes.getFirst();
-                     subOps = tmpRes.getSecond();
-                 }else{
+                 logger.debug(checkedExpr.toString());
+                 String condition =checkedExpr.toString().replace(" ","");
+                 if(condition.contains("length()==0") || condition.contains("==0") || condition.contains("!=null") || condition.contains("==null")){
                      subExprs.add(checkedExpr);
+                 }else{
+                     Pair<List<Expression>, List<InfixExpression.Operator>> tmpRes = infixSpliter(checkedExpr);
+                     if(tmpRes != null){
+                         subExprs = tmpRes.getFirst();
+                         subOps = tmpRes.getSecond();
+                     }else{
+                         subExprs.add(checkedExpr);
+                     }
                  }
              }else{
                  subExprs.add(checkedExpr);
@@ -402,31 +440,37 @@ public class InstVisitor extends ASTVisitor {
          oriInfix.setLeftOperand(stringLiteralOri);
          oriInfix.setOperator(InfixExpression.Operator.PLUS);
          ParenthesizedExpression tmpOriRhs = ast.newParenthesizedExpression();
-         tmpOriRhs.setExpression(ast.newSimpleName(Constant.INSTRUMENTPREFIX + oriCounter));
+         if(isNullCheck)
+             tmpOriRhs.setExpression(ast.newSimpleName(Constant.INSTRUMENTPREFIX + (oriCounter + 1)));
+         else
+             tmpOriRhs.setExpression(ast.newSimpleName(Constant.INSTRUMENTPREFIX + oriCounter));
          oriInfix.setRightOperand(tmpOriRhs);
          Queue<InfixExpression> queue = new LinkedList<>();
          queue.add(oriInfix);
-         for (int i = 1; i < _localVarCounter - oriCounter; ++i){
-             InfixExpression queueHead = queue.poll();
-             InfixExpression tmpInfix = ast.newInfixExpression();
-             StringLiteral stringLiteral1 = ast.newStringLiteral();
-             if (!isNullCheck)
-                stringLiteral1.setLiteralValue("\n" + subExprs.get(i).toString() + " :");
-             else
-                 stringLiteral1.setLiteralValue("\n" + subExprs.get(i).toString() + " is NULL:");
-             tmpInfix.setLeftOperand(stringLiteral1);
-             tmpInfix.setOperator(InfixExpression.Operator.PLUS);
-             ParenthesizedExpression tmpRhs = ast.newParenthesizedExpression();
-             tmpRhs.setExpression(ast.newSimpleName(Constant.INSTRUMENTPREFIX + (i + oriCounter)));
-             tmpInfix.setRightOperand(tmpRhs);
+         if (!isNullCheck){
+             for (int i = 1; i < _localVarCounter - oriCounter; ++i){
+                 InfixExpression queueHead = queue.poll();
+                 InfixExpression tmpInfix = ast.newInfixExpression();
+                 StringLiteral stringLiteral1 = ast.newStringLiteral();
+                 if (!isNullCheck)
+                     stringLiteral1.setLiteralValue("\n" + subExprs.get(i).toString() + " :");
+                 else
+                     stringLiteral1.setLiteralValue("\n" + subExprs.get(i).toString() + " is NULL:");
+                 tmpInfix.setLeftOperand(stringLiteral1);
+                 tmpInfix.setOperator(InfixExpression.Operator.PLUS);
+                 ParenthesizedExpression tmpRhs = ast.newParenthesizedExpression();
+                 tmpRhs.setExpression(ast.newSimpleName(Constant.INSTRUMENTPREFIX + (i + oriCounter)));
+                 tmpInfix.setRightOperand(tmpRhs);
 
-             InfixExpression toPushInfix = ast.newInfixExpression();
-             toPushInfix.setLeftOperand(queueHead);
-             toPushInfix.setOperator(InfixExpression.Operator.PLUS);
-             toPushInfix.setRightOperand(tmpInfix);
+                 InfixExpression toPushInfix = ast.newInfixExpression();
+                 toPushInfix.setLeftOperand(queueHead);
+                 toPushInfix.setOperator(InfixExpression.Operator.PLUS);
+                 toPushInfix.setRightOperand(tmpInfix);
 
-             queue.add(toPushInfix);
+                 queue.add(toPushInfix);
+             }
          }
+
          // make the replace node
          Expression replaceExpr = null;
          if (subExprs.size() > 1){
@@ -548,6 +592,14 @@ public class InstVisitor extends ASTVisitor {
 //         methodInvocation.arguments().add(ASTNode.copySubtree(ast, ast.newSimpleName(Constant.INSTRUMENTPREFIX + _localVarCounter)));
 //         ExpressionStatement printStatement = ast.newExpressionStatement(methodInvocation);
 
+         String exprStr = node.getExpression().toString().replace("==", "");
+         while (exprStr.contains("==")) {
+             exprStr = exprStr.replace("==", ")");
+         }
+         if(exprStr.contains("=")){
+             return true;
+         }
+
          Pair<List<Statement>, Expression> resAstNodes = makeInstStatements("boolean", (Expression) ASTNode.copySubtree(ast, node.getExpression()), ast, _cu.getLineNumber(node.getExpression().getStartPosition()), "IF-CONDITION", false);
          List<Statement> toBeInserted = resAstNodes.getFirst();
          Expression toBeReplaced = resAstNodes.getSecond();
@@ -604,7 +656,7 @@ public class InstVisitor extends ASTVisitor {
          AST ast = node.getAST();
          List<Statement> toBeInserted = new ArrayList<>();
          Expression toBeReplaced = null;
-         if(node.getExpression() == null || _retType == null){
+         if(node.getExpression() == null || _retType == null || _retType.equals("void")){
              return true;
          }
 
@@ -690,7 +742,7 @@ public class InstVisitor extends ASTVisitor {
 //             tryStatement.setBody(tryBlock);
 //             tryStatement.catchClauses().add(catchClause);
 //             toBeInserted.add(varDeclStmt); toBeInserted.add(tryStatement);
-             Pair<List<Statement>, Expression> resAstNodes = makeInstStatements("boolean", (Expression) ASTNode.copySubtree(ast, node.getExpression()), ast, _cu.getLineNumber(node.getExpression().getStartPosition()), "RETURN-OBJECT", true);
+             Pair<List<Statement>, Expression> resAstNodes = makeInstStatements(_retType, (Expression) ASTNode.copySubtree(ast, node.getExpression()), ast, _cu.getLineNumber(node.getExpression().getStartPosition()), "RETURN-OBJECT", true);
              toBeInserted = resAstNodes.getFirst();
              toBeReplaced = resAstNodes.getSecond();
          }else{
@@ -721,6 +773,7 @@ public class InstVisitor extends ASTVisitor {
 //             _localVarCounter += toBeInserted.size() - 1;
          }else if(res){
 //             _localVarCounter++;
+             node.setExpression((Expression) ASTNode.copySubtree(ast,toBeReplaced));
          }
          return true;
      }
@@ -740,8 +793,13 @@ public class InstVisitor extends ASTVisitor {
 //         }
          if(node instanceof MethodDeclaration){
              _counterStack.pop();
-             if(!_counterStack.isEmpty())
-                _retType = _counterStack.peek();
+             if(!_counterStack.isEmpty()){
+                 _retType = _counterStack.peek();
+             }
+             _typeStack.pop();
+             if(!_typeStack.isEmpty()){
+                 _retTypeType = _typeStack.peek();
+             }
          }
          return;
      }
