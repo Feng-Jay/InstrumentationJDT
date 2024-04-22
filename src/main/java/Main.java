@@ -50,12 +50,12 @@ public class Main {
         List<D4JSubject> subjects = JavaFile.readPatchInfo();
 
         for (D4JSubject subject: subjects){
-            if(subjects.indexOf(subject) < 55){
-                continue;
-            }
-            if (subject._proj.equals("Time")){
-                continue;
-            }
+//            if(subjects.indexOf(subject) < 55){
+//                continue;
+//            }
+//            if (subject._proj.equals("Time")){
+//                continue;
+//            }
             logger.info("Current bug is: " + subject._proj + "_" + subject._idNum);
             Instrument instrument = new Instrument(subject);
             instrument.instrumentation();

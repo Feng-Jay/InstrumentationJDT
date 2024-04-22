@@ -65,7 +65,7 @@ public class Instrument {
         logger.info("Compile outcome: " + result);
         if(result.contains("FAILED")){
             logger.error("Failed to compile: " + _subject._proj + "_" + _subject._idNum);
-//            _subject.restore();
+            _subject.restore();
             System.exit(-1);
         }else{
             _subject.restore();
