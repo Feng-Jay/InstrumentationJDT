@@ -12,9 +12,11 @@ This is a maven project, so, you can import it in IDEA and run from the Main.jav
 
 **Important:** The checked bug path should be like this: `d4jhome/Closure/Closure_10_buggy/`
 
+The [checkout.py](https://github.com/Feng-Jay/InstrumentationJDT/blob/master/src/checkout.py) shows how the bugs are checked
+
 More options are set in [Constant file](https://github.com/Feng-Jay/InstrumentationJDT/blob/master/src/main/java/utils/Constant.java)
 
-**Output format**
+## Output format
 
 For **If-Condition**:
 ```
