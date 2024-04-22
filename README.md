@@ -37,9 +37,7 @@ subexpr2 : value
 For **Return-Object**:
 ```
 PackageName#LineNumber#RETURN-OBJECT#exprString
-subexpr1 is NULL: true or false
-subexpr2 is NULL: true or false
-...
+expr is NULL: true or false
 ```
 
 
