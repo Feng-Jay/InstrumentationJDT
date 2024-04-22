@@ -10,7 +10,7 @@ This is a maven project, so, you can import it in IDEA and run from the Main.jav
 -pip: the project information path, example: `./d4j-info/patches_inputs.csv`
 ```
 
-**Important:** The checked bug path should be like this: `d4jhome/bug_project/bugProject_bugIdnum`
+**Important:** The checked bug path should be like this: `d4jhome/Closure/Closure_10_buggy/`
 
 More options are set in [Constant file](https://github.com/Feng-Jay/InstrumentationJDT/blob/master/src/main/java/utils/Constant.java)
 
